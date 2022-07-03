@@ -7,10 +7,10 @@ package com.nvrviews.structural.bridge;
  */
 public class BridgePatternDemo {
     public static void main(String[] args) {
-        Shape triangle = new Tiangle(new RedColor());
-        triangle.fillColor();
+        Shape triangle = new Triangle(new RedColor());
+        triangle.draw();
 
         Shape square = new Square(new GreenColor());
-        square.fillColor();
+        square.draw();
     }
 }

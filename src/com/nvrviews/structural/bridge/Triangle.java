@@ -1,13 +1,13 @@
 package com.nvrviews.structural.bridge;
 
-public class Tiangle extends  Shape{
+public class Triangle extends  Shape{
 
-    public Tiangle(Color color) {
+    public Triangle(Color color) {
         super(color);
     }
 
     @Override
-    public void fillColor() {
+    public void draw() {
         System.out.println("Triangle filled with ");
         color.fillColor();
     }
