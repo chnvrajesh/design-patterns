@@ -1,4 +1,4 @@
-package com.nvrviews.behavioural;
+package com.nvrviews.behavioural.state;
 
 /**
  *  1. State design pattern is used when an Object changes its behavior based on its internal state
